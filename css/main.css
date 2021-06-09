@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+.main-bgrd {
+    background: hsl(233, 47%, 7%);
+}
+
+.card-brgd {
+    display: flex;
+    width: 80%;
+    height: 60%;
+    background-color: aqua;
+}
+
+.attribution {
+    display: hidden;
+}

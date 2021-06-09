@@ -4,29 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.google.com/specimen/Inter" rel="stylesheet">
-  <link href="https://fonts.google.com/specimen/Lexend+Deca" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <link rel="stylesheet" href="/css/main.css">
+
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
   </style>
 </head>
 <body>
-<container class="main-bgrd">
+<container class="main-container">
   <main class="card-bgrd">
-    <div>
+    <div class="card-txt">
       <h1>Get insights that help your business grow.</h1>
       <p>
         Discover the benefits of data analytics and make better decisions regarding revenue, customer
         experience, and overall efficiency.
       </p>
     </div>
-    <div class="img-accent">
+    <div class="card-image img-accent">
       <img src="images/image-header-desktop.jpg" alt="Happy people on a workstation" class="card-img">
     </div>
     <div>
@@ -39,7 +40,6 @@
     </div>
   </main>
 </container>
-
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Fernando Carminatti</a>.
